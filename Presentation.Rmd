@@ -1,0 +1,43 @@
+---
+title: "Pitch Presentation for Shiny App"
+author: "Olivia Ladinig"
+date: "2/17/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(ggplot2)
+```
+
+## Course Project
+
+- This is the final course project for Data Products Course on Coursera's Data Science Spezialization. 
+- The goal was to create a shiny application, including this pitch presentation.
+- This is it :) 
+
+## Subject matter
+
+I have choosen to make an app that predicts diamond prices from various features,
+utilizing the diamonds data set that is included in the ggplot2 package of R. 
+The features are
+
+- carat
+- cut
+- color
+- clarity
+
+
+## Slide with R Output
+Here is a sample output of the full dataset with the first 6 cases. 
+```{r diamonds, echo = TRUE}
+head(diamonds)
+```
+
+
+## Links
+- The application can be found at:
+https://olivialadinig.shinyapps.io/shiny_2/
+
+- The source code can be found at:
+https://github.com/olivialadinig/dataproductsassignment
